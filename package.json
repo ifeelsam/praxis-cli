@@ -1,6 +1,6 @@
 {
   "name": "xpraxis",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "its a cli for initializing my own templetes ",
   "bin": {
     "create-app": "./bin/cli.js"

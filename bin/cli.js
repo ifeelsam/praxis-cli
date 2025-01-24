@@ -9,11 +9,10 @@ import replace from 'replace-in-file';
 import { execSync } from 'child_process'; // Changed from require
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const templatePath = path.join(__dirname, '..', 'template');
+const templatePath = path.join(__dirname, '.', 'template');
 
-// Add validation
 if (!fs.existsSync(templatePath)) {
-  console.log(templatePath);
+  console.log("temp path", templatePath);
   throw new Error(`Template not found at: ${templatePath}`);
 }
 
