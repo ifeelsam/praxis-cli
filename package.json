@@ -1,0 +1,38 @@
+{
+  "name": "xpraxis",
+  "version": "0.0.8",
+  "description": "its a cli for initializing my own templetes ",
+  "bin": {
+    "create-app": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "templete"
+  ],
+  "scripts": {
+    "test": "bun run test",
+    "start": "bun ./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/praxis-cli"
+  },
+  "keywords": [
+    "cli",
+    "npx",
+    "react",
+    "create",
+    "app"
+  ],
+  "type": "module",
+  "author": "ifeelsam",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.3.7",
+    "replace-in-file": "^7.0.0",
+    "url": "^0.11.4"
+  }
+}
